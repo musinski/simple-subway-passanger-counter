@@ -1,0 +1,65 @@
+:root {
+    box-sizing: border-box;
+}
+
+*, 
+::after,
+::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.5), 
+    rgba(0,0,0,0.5)),
+    url(images/renan-kamikoga-eK2la0EJ9Ts-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    margin-top: 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#count-el {
+    font-size: 4rem;
+}
+
+#increment-btn {
+    margin-top: 12em;
+    padding: 0.8em;
+    width: 60%;  
+    font-size: 1.2rem; 
+}
+
+#reset-counter-btn {
+    margin-top: 1em;
+    padding: 0.8em;
+    width: 60%;  
+    font-size: 1.2rem;
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+        background-image: linear-gradient(rgba(0,0,0,0.5), 
+        rgba(0,0,0,0.5)),
+        url(images/lex-sirikiat-hmcyWDzjWHo-unsplash.jpg);
+    }
+
+    .content {
+        margin-top: 15em;
+    }
+
+    #increment-btn {
+        margin-top: 1em;
+    }
+  }
