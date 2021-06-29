@@ -1,16 +1,34 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+
 :root {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 *, 
 ::after,
 ::before {
-    box-sizing: inherit;
+    -webkit-box-sizing: inherit;
+            box-sizing: inherit;
     margin: 0;
     padding: 0;
 }
 
 body {
+    background-image: -webkit-gradient(linear, 
+    left top, left bottom, 
+    from(rgba(0,0,0,0.5)), 
+    to(rgba(0,0,0,0.5))),
+    url(images/renan-kamikoga-eK2la0EJ9Ts-unsplash.jpg);
+    background-image: -o-linear-gradient(rgba(0,0,0,0.5), 
+    rgba(0,0,0,0.5)),
+    url(images/renan-kamikoga-eK2la0EJ9Ts-unsplash.jpg);
     background-image: linear-gradient(rgba(0,0,0,0.5), 
     rgba(0,0,0,0.5)),
     url(images/renan-kamikoga-eK2la0EJ9Ts-unsplash.jpg);
@@ -19,15 +37,26 @@ body {
     background-repeat: no-repeat;
     height: 100vh;
     color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .content {
     margin-top: 10em;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 #count-el {
@@ -50,6 +79,14 @@ body {
 
 @media only screen and (min-width: 600px) {
     body {
+        background-image: -webkit-gradient(linear, 
+        left top, left bottom, 
+        from(rgba(0,0,0,0.5)), 
+        to(rgba(0,0,0,0.5))),
+        url(images/lex-sirikiat-hmcyWDzjWHo-unsplash.jpg);
+        background-image: -o-linear-gradient(rgba(0,0,0,0.5), 
+        rgba(0,0,0,0.5)),
+        url(images/lex-sirikiat-hmcyWDzjWHo-unsplash.jpg);
         background-image: linear-gradient(rgba(0,0,0,0.5), 
         rgba(0,0,0,0.5)),
         url(images/lex-sirikiat-hmcyWDzjWHo-unsplash.jpg);
