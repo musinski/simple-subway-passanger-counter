@@ -21,13 +21,13 @@
 }
 
 body {
+    background-image: -o-linear-gradient(rgba(0,0,0,0.5), 
+    rgba(0,0,0,0.5)),
+    url(images/renan-kamikoga-eK2la0EJ9Ts-unsplash.jpg);
     background-image: -webkit-gradient(linear, 
     left top, left bottom, 
     from(rgba(0,0,0,0.5)), 
     to(rgba(0,0,0,0.5))),
-    url(images/renan-kamikoga-eK2la0EJ9Ts-unsplash.jpg);
-    background-image: -o-linear-gradient(rgba(0,0,0,0.5), 
-    rgba(0,0,0,0.5)),
     url(images/renan-kamikoga-eK2la0EJ9Ts-unsplash.jpg);
     background-image: linear-gradient(rgba(0,0,0,0.5), 
     rgba(0,0,0,0.5)),
@@ -79,13 +79,13 @@ body {
 
 @media only screen and (min-width: 600px) {
     body {
+        background-image: -o-linear-gradient(rgba(0,0,0,0.5), 
+        rgba(0,0,0,0.5)),
+        url(images/lex-sirikiat-hmcyWDzjWHo-unsplash.jpg);
         background-image: -webkit-gradient(linear, 
         left top, left bottom, 
         from(rgba(0,0,0,0.5)), 
         to(rgba(0,0,0,0.5))),
-        url(images/lex-sirikiat-hmcyWDzjWHo-unsplash.jpg);
-        background-image: -o-linear-gradient(rgba(0,0,0,0.5), 
-        rgba(0,0,0,0.5)),
         url(images/lex-sirikiat-hmcyWDzjWHo-unsplash.jpg);
         background-image: linear-gradient(rgba(0,0,0,0.5), 
         rgba(0,0,0,0.5)),
