@@ -37,14 +37,8 @@ body {
     background-repeat: no-repeat;
     height: 100vh;
     color: white;
-<<<<<<< HEAD
-}
-
-.content-container {
-=======
     display: -webkit-box;
     display: -ms-flexbox;
->>>>>>> 4bbfe04537c26fb1ef9df3812a6379c14b9cccb8
     display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -52,13 +46,9 @@ body {
 }
 
 .content {
-<<<<<<< HEAD
-    margin-top: 6em;
-=======
     margin-top: 10em;
     display: -webkit-box;
     display: -ms-flexbox;
->>>>>>> 4bbfe04537c26fb1ef9df3812a6379c14b9cccb8
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -74,21 +64,10 @@ body {
 }
 
 #increment-btn {
-<<<<<<< HEAD
-    margin-top: 1em;
-=======
     margin-top: 2em;
->>>>>>> 4bbfe04537c26fb1ef9df3812a6379c14b9cccb8
     padding: 0.8em;
     width: 60%;  
     font-size: 1.2rem; 
-}
-
-#save-btn {
-    margin-top: 1em;
-    padding: 0.8em;
-    width: 60%;  
-    font-size: 1.2rem;
 }
 
 #reset-counter-btn {
@@ -96,16 +75,6 @@ body {
     padding: 0.8em;
     width: 60%;  
     font-size: 1.2rem;
-}
-
-.previous-counts {
-    display: flex;
-    justify-content: center;
-    margin-top: 0.5em;
-}
-
-#saved-count {
-    font-size: 2rem;
 }
 
 @media only screen and (min-width: 600px) {
