@@ -19,12 +19,15 @@ body {
     background-repeat: no-repeat;
     height: 100vh;
     color: white;
+}
+
+.content-container {
     display: flex;
     justify-content: center;
 }
 
 .content {
-    margin-top: 10em;
+    margin-top: 6em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,10 +38,17 @@ body {
 }
 
 #increment-btn {
-    margin-top: 12em;
+    margin-top: 1em;
     padding: 0.8em;
     width: 60%;  
     font-size: 1.2rem; 
+}
+
+#save-btn {
+    margin-top: 1em;
+    padding: 0.8em;
+    width: 60%;  
+    font-size: 1.2rem;
 }
 
 #reset-counter-btn {
@@ -46,6 +56,16 @@ body {
     padding: 0.8em;
     width: 60%;  
     font-size: 1.2rem;
+}
+
+.previous-counts {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5em;
+}
+
+#saved-count {
+    font-size: 2rem;
 }
 
 @media only screen and (min-width: 600px) {
