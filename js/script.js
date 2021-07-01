@@ -14,7 +14,7 @@ function save() {
 
 function resetCounter() {
     let userResponse = "";
-    userResponse = prompt("Are you sure? ")
+    userResponse = prompt("To reset counter type yes")
     userResponse = userResponse.toLowerCase();
     if (userResponse == 'yes' || userResponse == 'y') {
         passangerCount = 0;
