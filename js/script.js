@@ -10,6 +10,7 @@ function save() {
     let countString = passangerCount;
     let dashSeparator = " - ";
     saveElement.textContent += countString + dashSeparator;
+    resetCounter();
 }
 
 function resetCounter() {
